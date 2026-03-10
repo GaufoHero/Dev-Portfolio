@@ -1,0 +1,92 @@
+html,
+body {
+  overflow-x: hidden;
+}
+:root {
+  --bs-body-font-family: "Roboto", cursive;
+}
+
+.html-border {
+  border-color: orangered !important;
+}
+.html-text {
+  color: orangered;
+  animation: fadeIn 3s forwards;
+}
+
+.bootstrap-border {
+  border-color: purple !important;
+}
+.bootstrap-text {
+  color: purple;
+  animation: fadeIn 3s forwards;
+}
+
+.java-custom {
+  border-color: orange;
+}
+.java-text {
+  animation: fadeIn 3s forwards;
+}
+
+.css-text {
+  animation: fadeIn 3s forwards;
+}
+
+.python-text {
+  animation: fadeIn 3s forwards;
+}
+
+.lua-text {
+  animation: fadeIn 3s forwards;
+}
+
+.c-text {
+  color: blue !important;
+  animation: fadeIn 3s forwards;
+}
+
+.social-icon {
+  width: 40px;
+}
+/* Effects */
+.profile-image {
+  height: 400px;
+  object-fit: cover;
+  border: 4px solid transparent;
+  transition: all 0.4s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.08);
+  border-color: lightslategray;
+  box-shadow: 0 0 30px black;
+}
+
+.zoom-image {
+  transition:
+    transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.zoom-image:hover {
+  transform: scale(1.05);
+  z-index: 10;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.hover-gif-container {
+  position: absolute;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
