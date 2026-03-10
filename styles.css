@@ -3,7 +3,7 @@ body {
   overflow-x: hidden;
 }
 :root {
-  --bs-body-font-family: "Roboto", cursive;
+  --bs-body-font-family: "Monospace";
 }
 
 .html-border {
