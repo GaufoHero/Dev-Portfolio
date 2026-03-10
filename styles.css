@@ -3,7 +3,7 @@ body {
   overflow-x: hidden;
 }
 :root {
-  --bs-body-font-family: "Monospace";
+  --bs-body-font-family: "Monospace" courier, monospace;
 }
 
 .html-border {
